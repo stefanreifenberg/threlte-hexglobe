@@ -6,7 +6,7 @@
     export let hexdata;
     
     let globe = new ThreeGlobe()
-      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+      .globeImageUrl('./earth-dark.jpeg')
       .hexPolygonsData(hexdata)
       .hexPolygonResolution(3)
       .hexPolygonAltitude(0.001)
