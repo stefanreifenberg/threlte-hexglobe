@@ -31,7 +31,7 @@
       />
   
       {#if hexData}
-        <Hexglobe hexdata={hexData} />
+        <Hexglobe hexdata={hexData}/>
       {/if}
     </Canvas>
   </div>
