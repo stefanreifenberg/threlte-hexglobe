@@ -13,7 +13,7 @@
     let globe = new ThreeGlobe()
       .globeImageUrl('./earth-dark.jpeg')
       .hexPolygonsData(hexdata)
-      .hexPolygonResolution(3)
+      .hexPolygonResolution(4)
       .hexPolygonAltitude(0.001)
       .hexPolygonMargin(0.2)
       .hexPolygonColor( d => colorScale(colorAccessor(d)))
